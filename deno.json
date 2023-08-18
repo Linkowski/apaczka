@@ -1,0 +1,21 @@
+{
+  "lint": {
+    "rules": {
+      "tags": [
+        "recommended"
+      ]
+    }
+  },
+  "fmt": {
+    "useTabs": false,
+    "lineWidth": 100,
+    "indentWidth": 2,
+    "singleQuote": true,
+    "proseWrap": "preserve"
+  },
+  "tasks": {
+    "format": "deno fmt ./src --check",
+    "lint": "deno lint ./src"
+  },
+  "importMap": "import_map.json"
+}
